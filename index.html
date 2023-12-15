@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssfile.css">
+    <title>To-Do List App</title>
+</head>
+<body>
+<!--implementing our todo app by stating some sections for better clarifications -->
+    <div class="container">
+        <h1>To Do List Application</h1>
+        <br>
+        <h2>WELCOME TO TASK MANAGER APPLICATION SYSTEM</h2>
+        <br>
+        <hr>
+        <div id="task-form">
+            <!-- form input to enter our task or todo list tasks-->
+            <input type="text" id="task-input" placeholder="Add a new task">
+            <!-- This button will be clicked to submit the inputted or entered task -->
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <br>
+        <ul id="task-list"></ul>
+        <footer>
+            <p>&copy; 2023 E.Nkunzimana. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="javascriptfile.js"></script>
+</body>
+</html>
+
